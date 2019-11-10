@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{FB7389C3-8CF8-4D7B-9058-51EE31F284F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{512B06F4-043B-4DE0-98D6-22B26F47E526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9EB58DF9-FCEA-48BD-9CE4-520F15A34745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB7389C3-8CF8-4D7B-9058-51EE31F284F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7389C3-8CF8-4D7B-9058-51EE31F284F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7389C3-8CF8-4D7B-9058-51EE31F284F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7389C3-8CF8-4D7B-9058-51EE31F284F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512B06F4-043B-4DE0-98D6-22B26F47E526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512B06F4-043B-4DE0-98D6-22B26F47E526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512B06F4-043B-4DE0-98D6-22B26F47E526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512B06F4-043B-4DE0-98D6-22B26F47E526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F52A05A-DF0E-4FD2-866E-A8FE20B7996E} = {9EB58DF9-FCEA-48BD-9CE4-520F15A34745}
+		{512B06F4-043B-4DE0-98D6-22B26F47E526} = {9EB58DF9-FCEA-48BD-9CE4-520F15A34745}
+	EndGlobalSection
+EndGlobal

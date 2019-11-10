@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>Elleva.MacaeTech.ECommerce.Shared</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper.Contrib" Version="2.0.30" />
+      <PackageReference Include="Npgsql" Version="4.1.1" />
+    </ItemGroup>
+
+</Project>
